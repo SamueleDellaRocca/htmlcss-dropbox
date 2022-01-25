@@ -8,27 +8,36 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
 
 /* classi utili  */
 .container-1200px {
     max-width: 1200px;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 .container-1000px {
     max-width: 1000px;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 .container-800px {
     max-width: 800px;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 .colonne-lunghe {
     width: 32%;
     margin: 0 0.65%;
     border: 1px solid gray;
+    float: left;
 }
 
 .colonne-corte {
@@ -48,8 +57,10 @@ nav {
     height: 100px;
     line-height: 100px;
     width: 1200px;
-    position: fixed;
+    /* left: 176px;
+    position: fixed; */
 }
+
 
 
 .parte-sinistra {
@@ -82,4 +93,51 @@ nav {
 /* header  */
 .header {
     background-color: hsl(207deg 52% 81%);
+}
+
+.colonna-sinistra {
+    width: 30%;
+    float: left;
+}
+
+.colonna-destra {
+    width: 60%;
+    float: left;
+}
+
+.colonna-destra img {
+    width: 100%;
+}
+
+header h1 {
+    font-size: 3.2rem;
+    text-align: left;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.link-header {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+/* section numero 1  */
+.container-800px h2 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.pallino {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.pallino-blu {
+    padding: 0.5rem;
+    background-color: blue;
 }
