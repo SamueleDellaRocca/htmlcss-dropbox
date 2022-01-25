@@ -38,6 +38,8 @@ body {
     margin: 0 0.65%;
     border: 1px solid gray;
     float: left;
+    margin-top: 50px;
+    height: 950px;
 }
 
 .colonne-corte {
@@ -51,6 +53,9 @@ body {
     display: table;
 }
 
+.border {
+    border: 1px solid gray;
+}
 
 /* nav --------------  */
 nav {
@@ -140,4 +145,59 @@ header h1 {
 .pallino-blu {
     padding: 0.5rem;
     background-color: blue;
+}
+
+
+/* colonne lunghe contenuto  */
+.colonne-lunghe p {
+    width: 53px;
+    margin: auto;
+    line-height: 40px;
+}
+
+.riga {
+    border-bottom: 1px solid gray;
+}
+
+.contenuto-colonne {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.contenuto-colonne h3 {
+    margin-bottom: 20px;
+}
+
+.contenuto-colonne .prezzo {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.mese {
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.utente {
+    margin-bottom: 20px;
+}
+
+.link-colonne {
+    color: blue;
+}
+
+.oppure {
+    display: inline-block;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.sottotitolo-colonne {
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.margin {
+    margin: 20px 0;
 }
