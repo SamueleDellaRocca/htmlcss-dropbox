@@ -201,3 +201,35 @@ header h1 {
 .margin {
     margin: 20px 0;
 }
+
+
+/* section enterprise ------------ */
+.enterprise p {
+    line-height: 35px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.novantacinque {
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.row {
+    width: 100%;
+}
+
+.row h3 {
+    float: left;
+}
+
+.row a {
+    float: right;
+    margin: 0 0;
+}
+
+.strong {
+    font-weight: bold;
+    margin-top: 10px;
+}
