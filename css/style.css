@@ -233,3 +233,41 @@ header h1 {
     font-weight: bold;
     margin-top: 10px;
 }
+
+.paragrafo-enterprise {
+    margin: 25px 0;
+}
+
+
+
+/* section con foto a destra e testo a sinistra  */
+.colonna-50-sinistra {
+    width: 50%;
+    float: left;
+}
+
+.colonna-50-sinistra img {
+    width: 100%;
+}
+
+.testo-sinistra {
+    padding-left: 30px;
+}
+
+.colonna-50-sinistra h4 {
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+.colonna-50-sinistra p {
+    line-height: 1.5em;
+}
+
+.colonna-50-sinistra a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
