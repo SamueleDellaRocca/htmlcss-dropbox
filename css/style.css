@@ -86,7 +86,14 @@ nav {
     text-decoration: none;
     margin: 0 20px;
     color: black;
+    padding-bottom: 29px;
 }
+
+.link-nav:hover {
+    border-bottom: 1px solid black;
+}
+
+
 
 .bottone-nav {
     text-decoration: none;
