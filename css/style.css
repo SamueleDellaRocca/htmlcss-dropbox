@@ -302,3 +302,56 @@ header h1 {
 .link-clienti {
     color: blue;
 }
+
+.quadrato-grande-esterno {
+    width: 30%;
+    float: left;
+}
+
+.quadrato-grande-centro {
+    width: 40%;
+    float: left;
+    background-color: hsl(0deg 0% 96%);
+    height: calc(131px * 2);
+}
+
+.quadrato-piccolo {
+    width: 50%;
+    height: 131px;
+    float: left;
+    text-align: center;
+}
+
+.colore-verde {
+    background-color: hsl(113deg 39% 72%);
+}
+
+.colore-bordeaux {
+    background-color: hsl(336deg 85% 21%);
+}
+
+.colore-florida {
+    background-color: hsl(197deg 100% 40%);
+}
+
+.topps {
+    background-color: hsl(0deg 100% 55%);
+}
+
+
+
+
+.contenuto-quadrato-grande {
+    width: 85%;
+    margin: auto;
+}
+
+.design {
+    border-bottom: 1px solid black;
+}
+
+.contenuto-quadrato-grande p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.80rem;
+}
