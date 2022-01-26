@@ -234,6 +234,7 @@ header h1 {
 }
 
 
+
 /* section enterprise ------------ */
 .enterprise p {
     line-height: 35px;
@@ -341,6 +342,7 @@ header h1 {
     float: left;
     background-color: hsl(0deg 0% 96%);
     height: calc(131px * 2);
+    overflow: auto;
 }
 
 .quadrato-piccolo {
