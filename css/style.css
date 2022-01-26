@@ -69,6 +69,7 @@ nav {
     line-height: 80px;
     width: 1200px;
     position: fixed;
+    z-index: 10;
 }
 
 
