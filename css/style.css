@@ -171,8 +171,8 @@ header h1 {
 }
 
 .pallino-blu {
-    padding: 0.5rem;
-    background-color: blue;
+    background-color: white;
+    border: 4px solid blue;
 }
 
 
