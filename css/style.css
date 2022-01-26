@@ -94,12 +94,15 @@ nav {
 }
 
 
-
 .bottone-nav {
     text-decoration: none;
     background-color: hsl(217deg 100% 50%);
     color: white;
     padding: 5px 15px;
+}
+
+.bottone-nav:hover {
+    filter: brightness(2);
 }
 
 
