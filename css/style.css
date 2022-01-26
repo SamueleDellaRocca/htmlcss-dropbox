@@ -6,6 +6,7 @@
 
 html {
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -58,6 +59,7 @@ body {
 .border {
     border: 1px solid gray;
 }
+
 
 /* nav --------------  */
 nav {
@@ -140,8 +142,19 @@ header h1 {
     margin-bottom: 10px;
 }
 
+.fa-arrow-down {
+    padding-top: 20px;
+    font-size: 2em;
+    color: black;
+}
+
+
 
 /* section numero 1  */
+#section1 {
+    padding-top: 100px;
+}
+
 .container-800px h2 {
     font-size: 3rem;
     margin-bottom: 50px;
