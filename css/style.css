@@ -115,6 +115,7 @@ nav {
 .header {
     background-color: hsl(207deg 52% 81%);
     padding-top: 50px;
+    height: 600px;
 }
 
 .colonna-sinistra {
@@ -128,7 +129,7 @@ nav {
 }
 
 .colonna-destra img {
-    width: 100%;
+    width: 120%;
 }
 
 header h1 {
