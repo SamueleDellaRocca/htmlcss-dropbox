@@ -322,6 +322,7 @@ header h1 {
     text-align: center;
 }
 
+/* quattro quadratini a sinistra, colore sfondi  */
 .colore-verde {
     background-color: hsl(113deg 39% 72%);
 }
@@ -340,7 +341,7 @@ header h1 {
 
 
 
-
+/* quadrato centrale contenuto  */
 .contenuto-quadrato-grande {
     width: 85%;
     margin: auto;
@@ -354,4 +355,24 @@ header h1 {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 0.80rem;
+}
+
+
+
+
+/* quattro quadratini a destra, colore sfondi  */
+.colore-bicycle {
+    background-color: hsl(351deg 100% 42%);
+}
+
+.colore-hearts {
+    background-color: hsl(207deg 52% 81%);
+}
+
+.colore-planet {
+    background-color: hsl(228deg 82% 28%);
+}
+
+.colore-channel {
+    background-color: hsl(49deg 100% 59%);
 }
