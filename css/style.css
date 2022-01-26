@@ -6,8 +6,9 @@
 
 html {
     font-family: 'Roboto', sans-serif;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
+
 
 body {
     max-width: 1200px;
@@ -176,8 +177,7 @@ header h1 {
 
 /* colonne lunghe contenuto  */
 .colonne-lunghe p {
-    width: 53px;
-    margin: auto;
+    text-align: center;
     line-height: 40px;
 }
 
@@ -222,6 +222,10 @@ header h1 {
 .sottotitolo-colonne {
     font-weight: 700;
     margin-top: 20px;
+}
+
+.fa-check {
+    color: blue;
 }
 
 .margin {
@@ -416,7 +420,7 @@ header h1 {
 
 .section-dropbox-business h2 {
     display: inline-block;
-    line-height: 1em;
+    line-height: 1.3em;
     font-size: 2rem;
 }
 
@@ -446,12 +450,17 @@ header h1 {
     border-bottom: 1px solid gray;
 }
 
-.fa-angle-down {
-    color: black;
-    float: right;
+.domande-frequenti {
+    position: relative;
 }
 
-
+.fa-angle-down {
+    font-size: 2em;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
 
 /* footer  */
@@ -495,4 +504,5 @@ header h1 {
 .italiano {
     text-align: left;
     padding-bottom: 50px;
+    color: gray;
 }
