@@ -100,6 +100,7 @@ nav {
 /* header  */
 .header {
     background-color: hsl(207deg 52% 81%);
+    padding-top: 50px;
 }
 
 .colonna-sinistra {
