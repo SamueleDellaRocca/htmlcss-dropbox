@@ -355,6 +355,7 @@ header h1 {
 /* quattro quadratini a sinistra, colore sfondi  */
 .colore-verde {
     background-color: hsl(113deg 39% 72%);
+    border: 10px solid hsl(114deg 39% 86%);
 }
 
 .colore-bordeaux {
@@ -508,4 +509,9 @@ header h1 {
     text-align: left;
     padding-bottom: 50px;
     color: gray;
+}
+
+.italiano a {
+    color: gray;
+    text-decoration: none;
 }
