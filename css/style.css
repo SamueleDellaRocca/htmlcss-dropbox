@@ -116,6 +116,25 @@ nav {
 }
 
 
+/* .tendina {
+    position: absolute;
+    top: 100px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.link-tendina {
+    display: block;
+    text-decoration: none;
+    line-height: 4em;
+    color: black;
+}
+
+.effetto-hover:hover .tendina {
+    background-color: red;
+} */
+
+
 
 /* header  */
 .header {
@@ -508,11 +527,11 @@ header h1 {
     display: none;
 }
 
-.row-domande-requenti:hover~#hidden-text {
+.container-800px-domande:hover #hidden-text {
     display: inline-block;
 }
 
-.row-domande-requenti:hover .fa-solid.fa-angle-down {
+.container-800px-domande:hover .fa-solid.fa-angle-down {
     transform: rotate(180deg);
 }
 
