@@ -480,17 +480,38 @@ header h1 {
     border-bottom: 1px solid gray;
 }
 
-.domande-frequenti {
-    position: relative;
-}
 
 .fa-angle-down {
     font-size: 2em;
-    position: absolute;
-    right: 30px;
-    top: 50%;
-    transform: translateY(-50%);
+
 }
+
+
+.row-domande-requenti {
+    width: 100%;
+}
+
+.row-domande-float-left {
+    float: left;
+}
+
+.row-domande-float-right {
+    float: right;
+    padding-right: 20px;
+    padding-top: 6px;
+    vertical-align: middle;
+}
+
+#hidden-text {
+    line-height: 1.5em;
+    color: gray;
+    display: none;
+}
+
+.row-domande-requenti:hover~#hidden-text {
+    display: inline-block;
+}
+
 
 
 /* footer  */
