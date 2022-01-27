@@ -241,6 +241,23 @@ header h1 {
     margin: 20px 0;
 }
 
+.row {
+    width: 100%;
+}
+
+.row-left {
+    float: left;
+}
+
+.row-left-width1 {
+    width: 2%;
+    margin-right: 20px;
+}
+
+.row-left-width {
+    width: 85%;
+}
+
 
 
 /* section enterprise ------------ */
