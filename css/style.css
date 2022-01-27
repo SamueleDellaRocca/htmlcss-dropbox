@@ -72,7 +72,6 @@ nav {
 }
 
 
-
 .parte-sinistra {
     float: left;
 }
@@ -83,6 +82,14 @@ nav {
 
 .parte-destra {
     float: right;
+}
+
+.fixed ul {
+    list-style: none;
+}
+
+.fixed ul li {
+    display: inline-block;
 }
 
 .link-nav {
@@ -224,6 +231,7 @@ header h1 {
     font-weight: 700;
     margin-top: 20px;
 }
+
 
 .fa-check {
     color: blue;
