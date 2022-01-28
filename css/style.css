@@ -70,6 +70,7 @@ nav {
 
 .parte-sinistra {
     float: left;
+    padding-left: 15px;
 }
 
 .parte-sinistra img {
@@ -78,6 +79,7 @@ nav {
 
 .parte-destra {
     float: right;
+    padding-right: 15px;
 }
 
 .fixed ul {
