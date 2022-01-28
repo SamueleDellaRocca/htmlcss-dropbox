@@ -396,13 +396,13 @@ header h1 {
     width: 40%;
     float: left;
     background-color: hsl(0deg 0% 96%);
-    height: calc(131px * 2);
+    height: calc(228px * 2);
     overflow: auto;
 }
 
 .quadrato-piccolo {
     width: 50%;
-    height: 131px;
+    height: 227.875px;
     float: left;
     text-align: center;
 }
