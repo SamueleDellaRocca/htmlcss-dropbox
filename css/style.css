@@ -257,6 +257,10 @@ header h1 {
     color: blue;
 }
 
+.prova {
+    margin-left: 10px;
+}
+
 .oppure {
     display: inline-block;
     border-bottom: 1px solid gray;
