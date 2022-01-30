@@ -63,7 +63,6 @@ nav {
     line-height: 80px;
     width: 100%;
     position: fixed;
-    z-index: 10;
     min-width: 1200px;
 }
 
@@ -121,8 +120,7 @@ nav {
 .tendina {
     position: absolute;
     top: 80px;
-    /* questa misura è regolata sul mio schermo  */
-    left: 975px;
+    right: -56px;
     width: 200px;
     background-color: rgb(255, 255, 255);
     display: none;
