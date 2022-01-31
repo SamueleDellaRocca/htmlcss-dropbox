@@ -151,7 +151,7 @@ nav {
 .header {
     background-color: hsl(207deg 52% 81%);
     padding-top: 50px;
-    min-height: 653px;
+    height: 653px;
 }
 
 .colonna-sinistra {
